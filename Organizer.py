@@ -15,7 +15,7 @@ for file_name in ListofFiles:
              print("Moving " + file_name + ".....")
              shutil.move(path1, path3)
         else: 
-            os.makedir(path2) 
+            os.makedirs(path2) 
             print("Moving " + file_name + ".....") 
             shutil.move(path1, path3)
 
